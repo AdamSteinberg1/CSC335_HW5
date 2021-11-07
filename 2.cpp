@@ -80,7 +80,7 @@ void graph(std::vector<std::pair<double,double>> points1, std::vector<std::pair<
   script.close();
 
   system("gnuplot tmp.plt");
-  //system("rm tmp.plt");
+  system("rm tmp.plt");
 }
 
 int main()
